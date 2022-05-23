@@ -1,8 +1,11 @@
-export const NavBar = () => {
+import './Navbar.scss';
+import { CartWidget } from '../CartWidget/CartWidget';
+
+export const NavBar = ({ titulo }) => {
   return (
     <header>
       <nav>
-        <h1>Edify</h1>
+        <h1>{titulo}</h1>
         <ul className="navLinks">
           <li>
             <a href="#a">HOME</a>
@@ -17,6 +20,7 @@ export const NavBar = () => {
             <a href="#a">CONTACT</a>
           </li>
         </ul>
+      <CartWidget />
       </nav>
     </header>
   );

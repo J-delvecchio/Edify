@@ -7,12 +7,12 @@ nav {
   background-image: url('https://delablog.com/wp-content/uploads/2019/12/mejores-marcas-streetwear-supreme.jpg');
   background-size: cover;
   background-position: center;
-}
 
-nav h1 {
-  color: gold;
-  padding-left: 3rem;
-  font-size: 7rem;
+  h1 {
+    color: gold;
+    padding-left: 3rem;
+    font-size: 7rem;
+  }
 }
 
 .navLinks {
@@ -21,11 +21,11 @@ nav h1 {
   display: flex;
   justify-content: space-between;
   list-style: none;
-}
 
-.navLinks a {
-  text-decoration: none;
-  color: #fff;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
 }
 
 .navLinks a::after {

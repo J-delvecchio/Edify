@@ -1,10 +1,12 @@
 import './App.css';
-import './components/NavBar/Navbar.css';
 import { NavBar } from './components/NavBar/Navbar';
+import { ItemListContainer } from './components/ItemListContainer/ItemListContainer';
+import './index.css';
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <NavBar titulo="Edify" />
+      <ItemListContainer nombre="Joaquin"/>
     </div>
   );
 }
