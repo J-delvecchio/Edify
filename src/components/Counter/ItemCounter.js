@@ -1,17 +1,14 @@
 import "./itemCounter.scss"
 import { useState } from "react";
 
-const remeras = {
-    rojas:20
-}
 
-export const ItemCounter = () =>{
+export const ItemCounter = ({stock}) =>{
     let [contador, setContador] = useState(1)
 
 
     const incrementar = () =>{
 
-        remeras.rojas > contador? setContador(contador+1) : setContador(contador)
+        stock > contador? setContador(contador+1) : setContador(contador)
     }
 
     const decrementar = () =>{
